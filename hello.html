@@ -2,17 +2,33 @@
 <html>
 <head>
 	<style type="text/css">
-		h1 {color: green;}
+		h1 {color: black;}
+		#make_big{font-size:50px;}
 		h2 {color: red;}
+		.make_pink {color: hotpink;}
 		p {color: blue}
 		body {background-color:cyan;}
-		#make_big {font-size:50;}
+		img {width: 500px;}
+		
 	</style>
+
+
+
+	 <script src="main.js"></script> 
+	
+	
 	<title> QuotesHub </title>
 </head>
 <body>
 	<h1> Star Wars Quotes:<h1>
-		<h2> Obi Wan: </h2>
-		<p> Hello There</p>
+		<h2 id='make_big'> Obi Wan: </h2>
+		<p class='make_pink'> Hello There</p>
+		<img src='obiwan.webp'>
+		<a href= "https://en.wikipedia.org/wiki/Obi-Wan_Kenobi">obiwan</a>
+		
+		<form>
+			<button type="button" onclick="changeBackgroundColor('green')">Set background color
+			</button>
+		</form>
 </body>
 </html>
